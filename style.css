@@ -1,0 +1,48 @@
+
+body {
+    all: unset;
+    background-color: black;
+
+}
+
+body,
+html {
+    height: 100%;
+    
+}
+
+html {
+    background-image: url(recipe-images/bg.jpeg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: white;
+    height: 977px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(255, 255, 255, 0.7);
+}
+.container2,
+.container3 {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.container2 {
+    background-color: white;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 25px;
+    }
+
+.container3 {
+    background-color: white;
+    padding: 30px 0;
+    border-radius: 25px;
+    margin: 20px auto;
+}
