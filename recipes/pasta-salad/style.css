@@ -1,0 +1,54 @@
+
+body {
+    all: unset;
+    background-color: black;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+html {
+    background-image: url(../../recipe-images/bg.jpeg);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(255, 255, 255, 0.7);
+}
+.content {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+.content-header {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.pasta-salad-img {
+    height: 400px;
+    object-fit: cover;
+    width: 500px;
+    border-radius: 10px;
+}
+.content-header h2,
+.content-header p {
+    text-align: left;
+    padding: 5px 50px;
+}
+
+.content-body {
+    padding: 5px 50px;
+}
